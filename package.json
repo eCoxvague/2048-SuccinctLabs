@@ -1,0 +1,36 @@
+{
+  "name": "2048-automation",
+  "version": "1.0.0",
+  "description": "Automated 2048 game player for testnet.succinct.xyz using Playwright",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run.js",
+    "install-browsers": "npx playwright install chromium"
+  },
+  "keywords": [
+    "2048",
+    "automation",
+    "playwright",
+    "game",
+    "bot",
+    "testnet",
+    "succinct"
+  ],
+  "author": "eCox",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "readline-sync": "^1.4.10"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecox/2048-automation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ecox/2048-automation/issues"
+  },
+  "homepage": "https://github.com/ecox/2048-automation#readme"
+}
